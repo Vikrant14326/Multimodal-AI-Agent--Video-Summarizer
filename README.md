@@ -27,6 +27,24 @@ An AI-powered video analysis tool built with Streamlit and Google's Gemini 2.0 F
 ## Installation
 
 1. Clone the repository:
-```bash
+bash
 git clone https://github.com/yourusername/phidata-video-summarizer.git
 cd phidata-video-summarizer
+
+# Project Requirements
+
+## Dependencies
+- streamlit
+- phi-agent 
+- google.generativeai
+- python-dotenv
+- DuckDuckGo API
+- Gemini 2.0 Flash Exp model
+
+## System Requirements
+- Python 3.8+
+- Google API Key (Gemini API access)
+- Sufficient storage for temporary video files
+
+## Installation
+pip install streamlit phi-agent google-generativeai python-dotenv
